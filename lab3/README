@@ -1,0 +1,3 @@
+"Proszę przygotować się do odpowiedzi na pytanie - co zyskujemy dzięki zastosowaniu takiej struktury?"
+
+Zyskujemy bezpieczeństwo i prostsze użycie metody. Ilość kolumn i wierszy są przechowywane w obiekcie do którego ta metoda ma dostęp więc nie ma potrzeby dręczyć o nie programistę. Można się również pokusić o usunięcie z listy parametrów parametru arr gdyż do niej również mamy bezpośredni dostęp z poziomu metody.
