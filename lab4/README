@@ -1,0 +1,20 @@
+Program w którym struktura zostanie zastąpiona prostą klasą został już stworzony na rzecz Lab3, więc wstawię go tu ponownie. Natomiast co do odpowiedzi na pytanie:
+"Jakie są wady i zalety wykorzystania jednego, a jakie drugiego? Który sposób jest poprawny, dlaczego? Proszę przygotować się do odpowiedzi na te pytania."
+
+rozwiązanie pierwsze:
+ zalety:
+ - krótszy zapis (acz kolwiek nie zawsze, więc nie jestem pewien czy mogę uznać to za zaletę)
+ 
+ wady:
+ - dostęp do wszystkiego zewsząd
+ - umożliwia niebezpiecznie operowanie i zmieniany zawartości parametrów, przez co można omijać niektóre mechanizmy programu
+ 
+ 
+ 
+rozwiązanie drugie:
+ zalety:
+ - w tym rozwiązaniu zastosowano hermetyzację, czyli w zasadzie jedna z podstawowych założeń programowania obiektowego
+ - nie mamy dostępu z zewnątrz do wrażliwych elementów klasy
+ - możemy zastosować mechanizmy np. zabezpieczające w tzw. getterach i setterach
+ wady:
+ - nie widzę, starałem się znaleźć na ten temat informacje na forach internetowych, jednakże bez skutku
